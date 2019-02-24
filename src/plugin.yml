@@ -1,0 +1,4 @@
+main: org.pixelgalaxy.FactionMain
+name: PlotFactions
+version: 0.1
+commands:
