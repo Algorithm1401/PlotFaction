@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FactionPlots">
+    <output-path>$USER_HOME$/Desktop/PixelGalaxy/backups/servers/Dev server/plugins</output-path>
+    <root id="archive" name="FactionPlots.jar">
+      <element id="module-output" name="PlotFaction" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+    </root>
+  </artifact>
+</component>

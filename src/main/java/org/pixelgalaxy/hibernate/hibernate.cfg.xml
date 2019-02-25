@@ -4,12 +4,17 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:mysql://localhost/PixelGalaxy</property>
+        <property name="connection.url">jdbc:mysql://localhost:3500/Faction</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.username">robin</property>
-        <property name="connection.password" >SAFEabc123</property>
 
         <!-- DB schema will be updated if needed -->
         <property name="hbm2ddl.auto">update</property>
+        <mapping class="org.pixelgalaxy.faction.FactionAlliesEntity"/>
+        <mapping class="org.pixelgalaxy.faction.FactionGiftsEntity"/>
+        <mapping class="org.pixelgalaxy.faction.FactionMembersEntity"/>
+        <mapping class="org.pixelgalaxy.faction.FactionPermsEntity"/>
+        <mapping class="org.pixelgalaxy.faction.FactionRaidsEntity"/>
+        <mapping class="org.pixelgalaxy.faction.FactionRankingEntity"/>
+        <mapping class="org.pixelgalaxy.faction.FactionStatsEntity"/>
     </session-factory>
 </hibernate-configuration>
